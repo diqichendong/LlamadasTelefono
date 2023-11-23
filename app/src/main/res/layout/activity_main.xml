@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:padding="10dp"
+    android:useDefaultMargins="true"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/btn1"
+        android:layout_width="0dp"
+        android:layout_height="180dp"
+        android:layout_columnWeight="1"
+        android:layout_gravity="right|center_horizontal|fill_horizontal"
+        android:scaleType="fitCenter"
+        android:src="@drawable/foto1" />
+
+    <ImageButton
+        android:id="@+id/btn2"
+        android:layout_width="0dp"
+        android:layout_height="180dp"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill_horizontal"
+        android:scaleType="fitCenter"
+        android:src="@drawable/foto2" />
+
+    <ImageButton
+        android:id="@+id/btn3"
+        android:layout_width="0dp"
+        android:layout_height="180dp"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill_horizontal"
+        android:scaleType="fitCenter"
+        android:src="@drawable/foto3" />
+
+    <ImageButton
+        android:id="@+id/btn4"
+        android:layout_width="0dp"
+        android:layout_height="180dp"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill_horizontal"
+        android:scaleType="fitCenter"
+        android:src="@drawable/foto4" />
+
+    <ImageButton
+        android:id="@+id/btn5"
+        android:layout_width="0dp"
+        android:layout_height="180dp"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill_horizontal"
+        android:scaleType="fitCenter"
+        android:src="@drawable/foto5" />
+
+    <ImageButton
+        android:id="@+id/btn6"
+        android:layout_width="0dp"
+        android:layout_height="180dp"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill_horizontal"
+        android:scaleType="fitCenter"
+        android:src="@drawable/foto6" />
+</GridLayout>
